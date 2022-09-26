@@ -15,6 +15,9 @@ function fizzbuzz() {
         if (x % 5 == 0) {
             arr.push("Buzz")
         }
+        if (x % 7 == 0) {
+            arr.push("Bang")
+        }
         if (arr.length == 0) {
             console.log(x)
         }
